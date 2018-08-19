@@ -1,18 +1,26 @@
 .sidebar {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: space-between;
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 240px;
-  height: 100%;
   padding: 20px 10px;
   background-color: $white;
+  max-height: 700px;
+  header {
+    height: 150px;
+  }
+  .date_content {
+      overflow-y: auto;
+      min-height: 400px;
+      flex: 1;
+      box-shadow: 0 1px 1px 0 rgba(31, 35, 46, .15);
+  }
+  footer {
+    margin-top: 30px;
+    height: 150px;
+  }
 }
 .about {
-  margin: 0 0 40px;
   text-align: center;
   .cover-author-image {
     width: 100px;
@@ -40,18 +48,6 @@
     text-transform: uppercase;
     color: $dark;
     font-weight: 700;
-    &::after {
-      content: "";
-      position: absolute;
-      left: 50%;
-      transform: translateX(-50%);
-      bottom: 0;
-      display: block;
-      width: 7px;
-      height: 7px;
-      border-radius: 100%;
-      background-color: $body-color;
-    }
   }
   p {
     font-size: 16px;
@@ -60,16 +56,41 @@
 }
 .content-box {
   padding: 20px;
-  padding-left: 260px;
-
   display: flex;
+  flex: 3;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: stretch;
 }
 
 .contact {
-  .contact-title {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    li {
+      display: inline-block;
+      margin-left: 10px;
+      &:first-child {
+        margin-left: 0;
+      }
+      a {
+        color: $body-color;
+        display: block;
+        padding: 5px;
+        font-size: 18px;
+        transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
+        &:hover {
+          color: $dark;
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
+
+.contact-title {
     position: relative;
     color: $dark;
     font-weight: 400;
@@ -100,37 +121,16 @@
       background-color: $body-color;
     }
   }
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-    li {
-      display: inline-block;
-      margin-left: 10px;
-      &:first-child {
-        margin-left: 0;
-      }
-      a {
-        color: $body-color;
-        display: block;
-        padding: 5px;
-        font-size: 18px;
-        transition: all 350ms cubic-bezier(0.13, 0.43, 0.54, 1.82);
-        &:hover {
-          color: $dark;
-          transform: scale(1.2);
-        }
-      }
-    }
-  }
-}
 
 footer {
   .copyright {
     font-size: 14px;
     text-align: center;
     margin: 0;
+    p {
+        margin: 0px;
+        padding: 0px;
+    }
   }
 }
 
@@ -161,7 +161,7 @@ footer {
 
   .post-content {
     padding: 1rem;
-    width: 70%;
+    width: 90%;
     .post-date,
     .post-words {
       font-size: 12px;

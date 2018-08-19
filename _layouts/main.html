@@ -9,9 +9,12 @@ layout: default
         <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
       <div class="author-name">{{site.author}}</div>
-      <p>{{site.about-author}}</p>
     </div>
   </header> <!-- End Header -->
+  <h3 class="contact-title">content lists</h3>
+  <section class="date_content">
+        {% include archives.html %}
+  </section>
   <footer>
     <section class="contact">
       <h3 class="contact-title">Contact me</h3>
@@ -44,6 +47,7 @@ layout: default
       </ul>
     </section> <!-- End Section Contact -->
     <div class="copyright">
+      <p>{{site.about-author}}</p>
       <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
     </div>
   </footer> <!-- End Footer -->

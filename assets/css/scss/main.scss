@@ -109,8 +109,9 @@ table tfoot td {
 }
 
 .wrapper {
-  max-width: 1250px;
-  position: relative;
+    display: flex;
+    max-width: 1250px;
+    position: relative;
 }
 
 .post, .article-page {
@@ -138,6 +139,9 @@ table tfoot td {
 
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 @import 'parts/home-page';
+
+/* - - - - - - - - - - archives Page Styles - - - - - - - - - - */
+@import 'parts/_archives-page';
 
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 @import 'parts/post-page';
