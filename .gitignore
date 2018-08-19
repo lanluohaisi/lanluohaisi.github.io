@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+.eslintrc.json
+node_modules
+project.config.json
+dist/
+*.wxss
+.eslintcache
+.vscode/
+.prettierrc
+package-lock.json
+_site
+.sass-cache
+.jekyll-metadata
