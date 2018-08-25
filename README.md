@@ -10,6 +10,8 @@
 
 作为前端小白，要更加努力！！
 
+#### [博客链接 https://lanluohaisi.github.io/](https://lanluohaisi.github.io/)
+
 ![cmd-markdown-logo](./assets/img/lanluo.jpg)
 
 
