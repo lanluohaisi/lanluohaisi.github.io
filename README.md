@@ -1,8 +1,3 @@
-# lanluohaisi博客readme
-
-标签（空格分隔）： readme
-
----
 
 此博客采用Flexible-Jekyll模板，非常感谢David的提供
 ### [模板fork链接 https://artemsheludko.github.io/flexible-jekyll：](https://artemsheludko.github.io/flexible-jekyll/)
@@ -14,3 +9,7 @@
 想明白自己要什么和不要什么，你之所以不开心，是因为你贪心。 --作者：咪蒙
 
 作为前端小白，要更加努力！！
+
+![cmd-markdown-logo](./assets/img/lanluo.jpg)
+
+
