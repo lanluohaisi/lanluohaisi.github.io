@@ -1,37 +1,28 @@
-title: 加油，小屁孩!
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+# Site settings
+name: lanluohaisi's blog
+email: ''
+author: yuanfang
+url: http://www.hifreud.com
+resume_site: ''
+github: https://lanluohaisi/github.com/
+baseurl: ""
+description: 人生不是考试，没有标准答案，任何一种职业，一种身份，一种生活状态都有被尊重的理由.
+meta_description: lanluohaisi;个人博客;你之所以不开心，是因为你贪心
+motto: 人生没有太晚的开始
+banner: 欲无后悔先修己，各有前因莫羡人.
 
-# Author Settings
-author: lanluohaisi # add your name
-author-img: lanluo.jpg # add your photo
-about-author: 人生不是考试，没有标准答案，任何一种职业，一种身份，一种生活状态都有被尊重的理由. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
-social-github: 'lanluohaisi/lanluohaisi.github.io' # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
 
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-# Tracker
-analytics: # Google Analytics
+github_username: lanluohaisi
 
-# Build Settings
+# Build settings
 markdown: kramdown
 plugins:
-  - jekyll-sitemap
   - jekyll-paginate
-  - jemoji
 
-paginate: 8
-paginate_path: "/page/:num"
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]

@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
-{% include head.html %}
-<body>
+<html>
 
-  <div class="wrapper">
+  {% include head.html %}
+
+  <body class="index">
+
+    {% include header.html %}
+    {% if page.title == 'HOME' %}
+        {% include docs_header.html %}
+    {% endif %}
+    {% if page.title %}
+      {% include banner.html %}
+    {% endif %}
+
     {{ content }}
-  </div>
+    
+    {% include footer.html %}
 
-</body>
+  </body>
 </html>
