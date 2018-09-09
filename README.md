@@ -16,6 +16,6 @@
 
 #### [博客链接 https://lanluohaisi.github.io/](https://lanluohaisi.github.io/)
 
-![cmd-markdown-logo](./style/images/lanluo.jpg)
+![cmd-markdown-logo](./styles/images/lanluo.jpg)
 
 
