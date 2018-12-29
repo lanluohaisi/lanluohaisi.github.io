@@ -1,31 +1,28 @@
 ---
 layout: post
-title: 相关博客
+title: 引入博客
 permalink: /reference/
 ---
 
 * content
 {:toc}
 
+gulp源码解析（一）—— Stream详解
+------------------------------------
+[gulp源码解析（一）—— Stream详解](https://www.cnblogs.com/vajoy/p/6349817.html)  
 
-走向架构师之路
-=====================
-[走向架构师之路](http://blog.csdn.net/cutesource/article/details/4901506)
+gulp源码解析（二）—— vinyl-fs
+------------------------------------
+[gulp源码解析（二）—— vinyl-fs](https://www.cnblogs.com/vajoy/p/6357476.html)  
 
-HTTP协议详解
-=====================
-[HTTP协议详解](http://www.jmarshall.com/easy/http/)
+gulp源码解析（三）—— 任务管理
+------------------------------------
+[gulp源码解析（三）—— 任务管理](https://www.cnblogs.com/vajoy/p/6359950.html)  
 
-Axis 2.0的入门
-=====================
-[曹胜欢][http://blog.csdn.net/csh624366188/article/details/8362696](http://blog.csdn.net/csh624366188/article/details/8362696)
+webpack 插件拾趣 (1) —— webpack-dev-server
+------------------------------------
+[webpack 插件拾趣 (1) —— webpack-dev-server](https://www.cnblogs.com/vajoy/p/7000522.html)
 
-[一线码农]
-=====================
-算法入门和分布式缓存入门
-[http://www.cnblogs.com/huangxincheng/archive/2011/11/14/2249046.html](http://www.cnblogs.com/huangxincheng/archive/2011/11/14/2249046.html)
-
-[雷霄骅]
-=====================
-视音频编解码技术学习方法
-[http://blog.csdn.net/leixiaohua1020/article/details/18893769](http://blog.csdn.net/leixiaohua1020/article/details/18893769)
+Vue2.1.7源码学习
+------------------------------------
+[Vue2.1.7源码学习](https://www.cnblogs.com/libin-1/p/6845669.html)
