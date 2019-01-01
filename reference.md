@@ -26,3 +26,7 @@ webpack 插件拾趣 (1) —— webpack-dev-server
 Vue2.1.7源码学习
 ------------------------------------
 [Vue2.1.7源码学习](https://www.cnblogs.com/libin-1/p/6845669.html)
+
+babel
+------------------------------------
+[babel是如何读懂JS代码的](https://zhuanlan.zhihu.com/p/27289600)  
