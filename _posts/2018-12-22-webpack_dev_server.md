@@ -9,7 +9,8 @@ tag: webpack
 * content
 {:toc}
 
-**注意attention:** [转载来源webpack 插件拾趣 (1) —— webpack-dev-server](https://www.cnblogs.com/vajoy/p/7000522.html)
+**注意attention:** [转载学习来源webpack 插件拾趣 (1) —— webpack-dev-server](https://www.cnblogs.com/vajoy/p/7000522.html)  
+
 
 webpack-dev-middleware			{#dev_middleware}
 ====================================
@@ -67,6 +68,15 @@ publicPath —— 它用于决定 webpack 打包编译后的文件，要存放�
 </body>
 ```
 同时，只要我们修改了页面的脚本模块（比如 src/js/index.js），webpack-dev-middleware 便会自行重新打包到内存，替换掉旧的 bundle，我们只需要刷新页面即可看到刚才的变更。  
+
+
+源码研究               {#dev_middle_source}
+------------------------------------
+
+**注意attention:** [转载学习来源webpack-dev-middleware@1.12.2 源码解读](https://segmentfault.com/a/1190000018610275?utm_source=tag-newest)  
+
+>webpack-dev-middleware这个中间件内部其实主就是做了两件事，第一就是在中间件函数初始化时，修改webpack的文件操作对象，让webpack编译后的文件输出到内存里，以监听模式启动webpack。第二就是当有http get请求过来时，中间件函数内部读取webpack输出到内存里的文件，然后输出到response上，这时候浏览器拿到的就是webpack编译后的资源文件了。  
+
 
 HMR			{#HMR}
 ====================================
@@ -154,6 +164,16 @@ echo "data: The server time is: {$time}\n\n";
 flush();
 ?>
 ```
+
+源码研究               {#hot_middle_source}
+------------------------------------
+
+**注意attention:** [转载学习来源webpack-hot-middleware解读](https://www.jianshu.com/p/bba6bc0a0739)  
+
+1. 
+
+
+
 
 webpack-dev-server 			{#dev_server}
 ====================================
