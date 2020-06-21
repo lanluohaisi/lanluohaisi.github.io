@@ -546,11 +546,11 @@ class HookCodeFactory {
 					code += onError("_err");
 					code += "}\n";
 					code += `if(!_hasError${tapIndex}) {\n`;
-        }
+                }
                 // 如果需要返回值则生成返回值代码
 				if (onResult) {
 					code += onResult(`_result${tapIndex}`);
-        }
+                }
                 // 新生成的字符串和之前生成的字符串
 				if (onDone) {
 					code += onDone();
